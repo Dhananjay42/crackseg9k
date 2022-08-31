@@ -61,5 +61,10 @@ Follow steps below to train your model:
     bash train_crack.sh
     ```
 
+3. To evaluate deeplab with ResNet backbone on CrackSeg9k dataset:
+    ```Shell
+    python3 eval_metrics.py
+    ```
+
 ### Acknowledgement
 [pytorch-deeplab-xception](https://github.com/jfzhang95/pytorch-deeplab-xception)
