@@ -2,10 +2,10 @@
 
 | Backbone       |mIoU in val |Pretrained Model|
 | :------------: |:---------: |:--------------:|
-| ResNet         | 78.43%     | [google drive](https://drive.google.com/open?id=1NwcwlWqA-0HqAPk3dSNNPipGMF0iS0Zu) |
-| Exception      | 70.81%     | [google drive](https://drive.google.com/open?id=1G9mWafUAj09P4KvGSRVzIsV_U5OqFLdt) |
-| ResNet-feat    | 78.87%     | [google drive](https://drive.google.com/open?id=131gZN_dKEXO79NknIQazPJ-4UmRrZAfI) |
-| Exception-feat | 78.87%     | [google drive](https://drive.google.com/open?id=131gZN_dKEXO79NknIQazPJ-4UmRrZAfI) |
+| ResNet         | 75.99%     | [google drive]() |
+| Xception       | 72.08%     | [google drive]() |
+| ResNet-feat    | 77.12%     | [google drive]() |
+| Xception-feat  | 73.53%     | [google drive]() |
 
 
 
