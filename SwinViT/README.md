@@ -7,7 +7,7 @@ This is a PyTorch(1.7.1) implementation of SwinViT-UNet for segmentation on the 
 * [Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
 
 ## 1. Download pre-trained SwinViT-Unet model on the CrackSeg9K dataset
-* [Get pre-trained model in this link] ([https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing](https://drive.google.com/file/d/1zd8jcIWUuEyzQLWvUAOfl-drnlVNoUrK/view?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
+* [Get pre-trained model in this link] (https://drive.google.com/file/d/1zd8jcIWUuEyzQLWvUAOfl-drnlVNoUrK/view?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
 
 ## 2. Prepare data
 
