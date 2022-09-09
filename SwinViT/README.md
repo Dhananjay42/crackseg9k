@@ -31,6 +31,10 @@ python3 experiment.py ##set max possible batch size from config
 python3 test.py ##set max possible batch size from config 
 ```
 
+## 5. Inference 
+
+-For quick inference use the [Jupyter Notebook]()
+
 
 
 ## References
