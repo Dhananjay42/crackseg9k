@@ -25,7 +25,7 @@ This is a PyTorch(1.7.1) implementation of SwinViT-UNet for segmentation on the 
 python3 experiment.py ##set max possible batch size from config 
 ```
 
--Test : To evaluate on the CrackSeg9K dataset run 
+- Test : To evaluate on the CrackSeg9K dataset run 
 
 ```bash
 python3 test.py ##set max possible batch size from config 
