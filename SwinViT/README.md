@@ -33,7 +33,7 @@ python3 test.py ##set max possible batch size from config
 
 ## 5. Inference 
 
--For quick inference use the [Jupyter Notebook]()
+- For quick inference use the [Jupyter Notebook](https://github.com/Dhananjay42/crackseg9k/blob/main/SwinViT/inference.ipynb)
 
 
 
