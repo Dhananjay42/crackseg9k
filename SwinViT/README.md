@@ -1,5 +1,6 @@
 # Swin-Unet
-The codes for the work "Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation"(https://arxiv.org/abs/2105.05537). A validation for U-shaped Swin Transformer.
+
+## This is a PyTorch(1.7.1) implementation of SwinViT-UNet for segmentation on the CrackSeg9k dataset. . The codes for the work "Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation"(https://arxiv.org/abs/2105.05537). A validation for U-shaped Swin Transformer.
 
 ## 1. Download pre-trained swin transformer model (Swin-T)
 * [Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
@@ -19,28 +20,12 @@ The codes for the work "Swin-Unet: Unet-like Pure Transformer for Medical Image 
 - Train
 
 ```bash
-sh train.sh or python train.py --dataset Synapse --cfg configs/swin_tiny_patch4_window7_224_lite.yaml --root_path your DATA_DIR --max_epochs 150 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.05 --batch_size 24
+python3 experiment.py ##set max possible batch size from config 
 ```
 
-- Test 
-
-```bash
-sh test.sh or python test.py --dataset Synapse --cfg configs/swin_tiny_patch4_window7_224_lite.yaml --is_saveni --volume_path your DATA_DIR --output_dir your OUT_DIR --max_epoch 150 --base_lr 0.05 --img_size 224 --batch_size 24
-```
 
 ## References
 * [TransUnet](https://github.com/Beckschen/TransUNet)
 * [SwinTransformer](https://github.com/microsoft/Swin-Transformer)
 
-## Citation
 
-```bibtex
-@misc{cao2021swinunet,
-      title={Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation}, 
-      author={Hu Cao and Yueyue Wang and Joy Chen and Dongsheng Jiang and Xiaopeng Zhang and Qi Tian and Manning Wang},
-      year={2021},
-      eprint={2105.05537},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
-```
