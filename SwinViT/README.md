@@ -16,13 +16,18 @@ This is a PyTorch(1.7.1) implementation of SwinViT-UNet for segmentation on the 
 
 ## 4. Train/Test
 
-- Run the train script on synapse dataset. The batch size we used is 24. If you do not have enough GPU memory, the bacth size can be reduced to 12 or 6 to save memory.
-
-- Train
+- Train : To train on the CrackSeg9k dataset run
 
 ```bash
 python3 experiment.py ##set max possible batch size from config 
 ```
+
+-Test : To evaluate on the CrackSeg9K dataset run 
+
+```bash
+python3 test.py ##set max possible batch size from config 
+```
+
 
 
 ## References
