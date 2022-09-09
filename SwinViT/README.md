@@ -1,6 +1,7 @@
 # Swin-Unet
 
-## This is a PyTorch(1.7.1) implementation of SwinViT-UNet for segmentation on the CrackSeg9k dataset. . The codes for the work "Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation"(https://arxiv.org/abs/2105.05537). A validation for U-shaped Swin Transformer.
+## Introduction
+This is a PyTorch(1.7.1) implementation of SwinViT-UNet for segmentation on the CrackSeg9k dataset. . The codes for the work "Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation"(https://arxiv.org/abs/2105.05537). A validation for U-shaped Swin Transformer.
 
 ## 1. Download pre-trained swin transformer model (Swin-T)
 * [Get pre-trained model in this link] (https://drive.google.com/drive/folders/1UC3XOoezeum0uck4KBVGa8osahs6rKUY?usp=sharing): Put pretrained Swin-T into folder "pretrained_ckpt/"
