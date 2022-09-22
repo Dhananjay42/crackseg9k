@@ -65,7 +65,7 @@ Follow the steps below to train your model:
 
 0. For this, you will need to have the following folder structure:
    
-   ### Folder Structure for Evaluation
+### Folder Structure for Evaluation
     .
     ├── Images                  # Contains the RGB images.
     ├── Masks                   # Contains the corresponding segmentation masks. 
