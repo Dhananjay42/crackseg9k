@@ -1,0 +1,6 @@
+matplotlib==3.2.2
+numpy==1.21.6
+opencv_contrib_python==4.6.0.66
+scikit_learn==1.1.2
+tensorflow==2.8.2+zzzcolab20220719082949
+tensorflow_addons==0.18.0
