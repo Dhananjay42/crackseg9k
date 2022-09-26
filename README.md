@@ -1,8 +1,22 @@
-# crackseg9k
-[ECCV W 2022] "CrackSeg9k: A Collection and Benchmark for Crack Segmentation Datasets and Frameworks" by Shreyas Kulkarni, Shreyas Singh, Dhananjay Balakrishnan, Siddharth Sharma, Saipraneeth Devunuri, Sai Chowdeswara Rao Korlapati.
+# CrackSeg9k: A Collection and Benchmark for Crack Segmentation Datasets and Frameworks
 
-You can check the different models we have implemented in the different folders. 
+[[arXiv]](https://arxiv.org/abs/2208.13054) [[Dataset]](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EGIEBY)
+Authors: [Shreyas Kulkarni](https://github.com/shreyask3107), [Shreyas Singh](https://github.com/shreyesss), [Dhananjay Balakrishnan](https://github.com/Dhananjay42), Siddharth Sharma, Saipraneeth Devunuri, Sai Chowdeswara Rao Korlapati.
 
-For instructions on generating DINO features, check the "dino" folder.
 
-You can find our paper [here.](https://arxiv.org/abs/2208.13054)
+## Instructions:
+
+1. Code for each model presented in the paper is available in the individual folders.
+2. Feature generation with DINO is available in the "dino" folder.
+
+
+## Citation
+
+'''
+@article{kulkarni2022crackseg9k,
+  title={CrackSeg9k: A Collection and Benchmark for Crack Segmentation Datasets and Frameworks},
+  author={Kulkarni, Shreyas and Singh, Shreyas and Balakrishnan, Dhananjay and Sharma, Siddharth and Devunuri, Saipraneeth and Korlapati, Sai Chowdeswara Rao},
+  journal={arXiv preprint arXiv:2208.13054},
+  year={2022}
+}
+'''
