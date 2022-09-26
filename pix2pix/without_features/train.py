@@ -103,7 +103,6 @@ def parse_image(img_path: str):
     image = tf.image.decode_jpeg(image, channels=3)
 
     mask_path = tf.strings.regex_replace(img_path, "Images", "Masks")
-    print('mask path is', mask_path)
     mask = tf.io.read_file(mask_path)
     mask = tf.image.decode_jpeg(mask, channels=3)
 
