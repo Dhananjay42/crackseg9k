@@ -32,7 +32,7 @@ The code was tested with Anaconda and Python 3.6. After installing the Anaconda 
 
 Note: You are free to make your own train.txt and test.txt files. We have made them by considering an even split of each sub-dataset between the train and test folders.
 
-Note 2: You will need to generate and save DINO attention heads in the "Heads" folder. The instructions to do that have been linked here - .
+Note 2: You will need to generate and save DINO attention heads in the "Heads" folder. The instructions to do that have been linked here - https://github.com/Dhananjay42/crackseg9k/tree/main/dino.
 
 ### Training
 Follow the steps below to train your model:
