@@ -1,4 +1,4 @@
-# Pix2Pix U-Net (With Features)
+# Pix2Pix FPN (With Features)
 
 ### Introduction
 This is a Tensorflow(2.8.2) implementation of the image-to-image translation model - Pix2Pix with a U-Net backbone, on the crackseg9k dataset.
