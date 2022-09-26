@@ -43,7 +43,7 @@ Follow the steps below to train your model:
                 [--lambda LAMBDA] [--epochs EPOCHS] [--buffer_size BUFFER_SIZE]
 
     ```
-    You can keep track of the training process by monitoring the "progress" and the "logs" folders. 
+    You can keep track of the training process by monitoring the "progress" and the "logs" folders. The "progress" folder shows a random test image, the ground truth, and the predicted mask as a function of the number of epochs. The "logs" folder stores the file to monitor training. 
 
 ### Inferencing using the trained model
 
